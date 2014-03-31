@@ -38,7 +38,7 @@ thSys.version    = sys.version
 par.fileprefix   = "hw"
 
 par.nPars          = 2;
-par.nMCMC          = 75;
+par.nMCMC          = 150;
 par.nBurnIn        = 0;
 par.normLimit      = 0.1;
 par.verboseSampler = 0;
