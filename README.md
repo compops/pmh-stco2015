@@ -5,7 +5,7 @@ Particle Metropolis-Hastings using gradient and Hessian information
 
 This code was downloaded from < https://github.com/compops/pmh2 > or from < http://users.isy.liu.se/en/rt/johda87/ > and contains the code used to produce the results in the papers
 
-* J. Dahlin, F. Lindsten and T. B. Schön, *Particle Metropolis-Hastings using gradient and Hessian information*. Pre-print arxiv:1311.0686v2, April 2014.
+* J. Dahlin, F. Lindsten and T. B. Schön, *Particle Metropolis-Hastings using gradient and Hessian information*. Statistics and Computing (MCMSki 2014 special issue), Springer, 2014.
 
 * J. Dahlin, F. Lindsten and T. B. Schön, *Second-order particle MCMC for Bayesian parameter inference*. Proceedings of the 18th World Congress of the International Federation of Automatic Control (IFAC), Cape Town, South Africa, August 2014. (accepted for publication)
 
