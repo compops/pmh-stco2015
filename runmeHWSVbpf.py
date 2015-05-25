@@ -90,35 +90,35 @@ pmh2.runSampler(smc, data, sys, thSys, par, "PMH2");
 # Plot the results
 ########################################################################
 
-subplot(3,1,1); 
+plt.subplot(3,1,1); 
 plt.plot(pmh0.th[:,0],pmh0.th[:,1],'k'); xlabel("th0"); ylabel("th1"); 
 plt.hold("on"); 
 plt.plot(pmh0.th[:,0],pmh0.th[:,1],'k.');
-plot([sys.par[0],sys.par[0]],[0,2],'k:')
-plot([0,1],[sys.par[1],sys.par[1]],'k:')
+plt.plot([sys.par[0],sys.par[0]],[0,2],'k:')
+plt.plot([0,1],[sys.par[1],sys.par[1]],'k:')
 plt.hold("off"); 
 plt.axis([0,1,0,2])
-title("PMH0")
+plt.title("PMH0")
 
-subplot(3,1,2); 
+plt.subplot(3,1,2); 
 plt.plot(pmh1.th[:,0],pmh1.th[:,1],'r'); xlabel("th0"); ylabel("th1"); 
 plt.hold("on"); 
 plt.plot(pmh1.th[:,0],pmh1.th[:,1],'r.');
-plot([sys.par[0],sys.par[0]],[0,2],'k:')
-plot([0,1],[sys.par[1],sys.par[1]],'k:')
+plt.plot([sys.par[0],sys.par[0]],[0,2],'k:')
+plt.plot([0,1],[sys.par[1],sys.par[1]],'k:')
 plt.hold("off"); 
 plt.axis([0,1,0,2])
-title("PMH1")
+plt.title("PMH1")
 
-subplot(3,1,3); 
+plt.subplot(3,1,3); 
 plt.plot(pmh2.th[:,0],pmh2.th[:,1],'b'); xlabel("th0"); ylabel("th1"); 
 plt.hold("on"); 
 plt.plot(pmh2.th[:,0],pmh2.th[:,1],'b.');
-plot([sys.par[0],sys.par[0]],[0,2],'k:')
-plot([0,1],[sys.par[1],sys.par[1]],'k:')
+plt.plot([sys.par[0],sys.par[0]],[0,2],'k:')
+plt.plot([0,1],[sys.par[1],sys.par[1]],'k:')
 plt.hold("off"); 
 plt.axis([0,1,0,2])
-title("PMH2")
+plt.title("PMH2")
 
 #############################################################################################################################
 # End of file
