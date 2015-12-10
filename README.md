@@ -1,4 +1,4 @@
-pmh2
+pmh-stco2015
 ====
 
 Particle Metropolis-Hastings using gradient and Hessian information
