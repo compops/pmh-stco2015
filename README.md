@@ -3,19 +3,22 @@ pmh-stco2015
 
 Particle Metropolis-Hastings using gradient and Hessian information
 
-This code was downloaded from < https://github.com/compops/pmh-stco2015 > or from < http://liu.johandahlin.com/ > and contains the code used to produce the results in the papers
+This code was downloaded from < https://github.com/compops/pmh-stco2015 > and contains the code used to produce the results in the papers
 
-* J. Dahlin, F. Lindsten and T. B. Schön, *Particle Metropolis-Hastings using gradient and Hessian information*. Statistics and Computing, Volume 25, Issue 1, pp 81-92, Springer, 2015.
+* J. Dahlin, F. Lindsten and T. B. Schön, *Particle Metropolis-Hastings using gradient and Hessian information**. Statistics and Computing, Volume 25, Issue 1, pp 81-92, Springer, 2015.
 
-* J. Dahlin, F. Lindsten and T. B. Schön, *Second-order particle MCMC for Bayesian parameter inference*. Proceedings of the 18th World Congress of the International Federation of Automatic Control (IFAC), Cape Town, South Africa, August 2014. (accepted for publication)
+* J. Dahlin, F. Lindsten and T. B. Schön, **Second-order particle MCMC for Bayesian parameter inference**. Proceedings of the 18th World Congress of the International Federation of Automatic Control (IFAC), Cape Town, South Africa, August 2014. (accepted for publication)
 
-* J. Dahlin, F. Lindsten and T. B. Schön, *Particle Metropolis Hastings using Langevin Dynamics*. Proceedings of the 38th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Vancouver, Canada, May 2013.
+* J. Dahlin, F. Lindsten and T. B. Schön, **Particle Metropolis Hastings using Langevin Dynamics**. Proceedings of the 38th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Vancouver, Canada, May 2013.
 
-The papers are available as a preprint from < http://arxiv.org/abs/1311.0686 > and < http://liu.johandahlin.com/ >.
+The papers are available as a preprint from < http://arxiv.org/abs/1311.0686 >.
 
 Requirements
 --------------
-The program is written in Python 2.7 and makes use of NumPy 1.7.1, SciPy 0.12.0, Matplotlib 1.2.1, Pandas. Please have these packages installed, on Ubuntu they can be installed using "sudo pip install --upgrade *package-name* ".
+The program is written in Python 2.7 and makes use of NumPy 1.7.1, SciPy 0.12.0, Matplotlib 1.2.1, Pandas. Please have these packages installed, on Ubuntu they can be installed using
+```
+sudo pip install --upgrade *package-name*
+```
 
 Included files
 --------------
